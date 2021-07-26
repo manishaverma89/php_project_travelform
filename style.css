@@ -1,0 +1,64 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+   
+    max-width: 80%;
+    padding: 30px;
+    
+    margin:auto;
+}
+
+.container h1, p{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+p{
+    padding-bottom: 20px;
+    font-size: 19px;
+}
+input,textarea {
+    font-size: 16px;
+    width:80%;
+   margin: 8px auto;    /*input and text area will be in center  */
+   padding: 8px;
+   border: 2px solid black;
+    border-radius: 10px;
+     
+
+
+}
+form{
+      display: flex;  /* form items will be in center   */
+    flex-direction: column;    /* by default flex direction is row  */
+    align-items: center;
+    justify-content: center;
+
+}
+.btn{
+    color:white;
+    background-color:rgba(34, 139, 34, 0.637);
+    padding:4px;
+    margin-top: 10px;
+    
+    width:20%;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 2px solid white;
+    cursor: pointer;
+
+}
+.bg{
+    width:100%;
+    position:absolute;
+    z-index: -1;
+}
